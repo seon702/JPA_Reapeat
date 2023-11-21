@@ -14,7 +14,7 @@
 - IntelliJ
   - [다운로드](https://www.jetbrains.com/ko-kr/idea/)
 - JDK Version - 11
-  - [다운로드](https://www.oracle.com/java/technologies/javase/8u361-relnotes.html)
+  - [다운로드](https://www.oracle.com/kr/java/technologies/javase/jdk11-archive-downloads.html)
 
 ---
 
@@ -22,8 +22,8 @@
 
 | 번호 |  일차  |          내용          |     소스코드      |
 | :--: | :----: | :--------------------: | :---------------: |
-|  00  | 1일차  |       | [바로가기][day01] |
-|  01  | 2일차  |        | [바로가기][day02] |
+|  00  | 1일차  |   JPA 소개와 JPA시작 영속성 괸리   | [바로가기][day01] |
+|  01  | 2일차  |    엔티티 매핑, 연관관계 매핑 기초    | [바로가기][day02] |
 |  02  | 3일차  |    | [바로가기][day03] |
 |  03  | 4일차  |  | [바로가기][day04] |
 |  04  | 5일차  |      | [바로가기][day05] |
