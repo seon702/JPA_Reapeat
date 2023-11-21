@@ -4,9 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -16,6 +14,8 @@ public class Member {
     @Id
     @Column(name="MEMBER_ID")
     private Long id;
+
+    @Column(length = 10)
     private String name;
     private String city;
     private String street;
