@@ -47,6 +47,6 @@
 
 - [위키독스 - 점프 투 자바](https://wikidocs.net/book/31)
 
-[day01]: ./day01(강사님)/src/
-[day02]: ./day02(강사님)/src/
+[day01]: ./ex1-hello-jpa/src/main
+[day02]: .
 
