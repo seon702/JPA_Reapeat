@@ -3,8 +3,9 @@ package jpabook.jpashop.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,4 +21,11 @@ public class Member {
     private String city;
     private String street;
     private String zipcode;
+
+
+    // 역방향 연관관계(가짜 매핑)
+    @OneToMany(mappedBy = "member")
+    private List<Order> orders = new ArrayList<>();
+
+
 }
